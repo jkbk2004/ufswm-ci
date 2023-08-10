@@ -1,0 +1,27 @@
+name: hofx
+channels:
+  - defaults
+dependencies:
+  - boto3
+  - botocore
+  - cftime
+  - click
+  - Cython
+  - jmespath
+  - numpy
+  - pandas
+  - python-dateutil
+  - pytz
+  - PyYAML
+  - s3transfer
+  - six
+  - urllib3
+  - wheel
+  - xarray
+  - netcdf4
+  - h5py
+  - pip
+  - pip:
+    - git+https://github.com/jcsda-internal/solo.git
+    - git+https://github.com/jcsda-internal/r2d2.git
+    - git+https://github.com/noaa-emc/hofxcs.git

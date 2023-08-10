@@ -1,0 +1,11 @@
+name: ufswm
+channels:
+  - defaults
+dependencies:
+  - cftime
+  - Cython
+  - numpy
+  - pandas
+  - python-dateutil
+  - h5py
+  - netcdf4
